@@ -24,5 +24,6 @@ public class MemberApp {
         Member findMember = memberService.findMember(1L); // 회원가입한 객체를 찾음, 근데 이를 findMember의 틀에 넣음
         System.out.println("new member = " + member.getName()); // 회원가입한 member, 찾은 객체 findMember을 출력
         System.out.println("find Member = " + findMember.getName());
+
     }
 }
